@@ -1,0 +1,129 @@
+html{
+  font-size: 12px;
+}
+body{
+    font-family: "Mukta Mahee", sans-serif;
+    color: #ffffff;
+}
+a,
+button,
+.btn,
+.btn-link {
+    transition: all .3s;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    font-weight:400;
+}
+select {
+  color: Gray;
+   /*-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border:0px;
+   outline:0px;*/
+}
+input[type="number"],input[type="text"]{
+  padding-left: 20px;
+  padding-right: 15px;
+  border:0px;
+  outline:0px;
+  font-size: 16px;
+  width: 200px;
+  font-weight: bold;
+  margin:10px;
+}
+.custombutton:hover{
+
+}
+.custombuttonbig{
+  border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding-left:30px;
+    padding-right:30px;
+    margin:15px;
+}
+.custombutton{
+  border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding-left:20px;
+    padding-right:20px;
+    margin:10px;
+}
+.navbar{
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.navbar-nav{
+  margin-right: 200px;
+  font-size: 1.5rem;
+}
+.container{
+
+}
+.infotext{
+  font-size:20px;
+  text-align:left;
+  color:#fff;
+}
+
+.highlighttext{
+
+}
+.highlighttextsubtle{
+
+}
+.controlbox{
+  display: block;
+  line-height: 4.5rem;
+  color: #fff;
+  font-weight: 400;
+  background-color: #2B0C65;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 2.2rem;
+  padding: .5rem 1.5rem 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5)
+
+
+}
+.appcontents{
+  width: 300px;
+  height: 60%;
+  position: absolute;
+  top:20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.navbar .nav, .navbar .nav > li {
+
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.navbar_old{
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}

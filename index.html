@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example Site</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="custom.css">
+  <script src="js/color-scheme.js"></script>
+    <script src="js/paper.js"></script>
+  <script src="js/seedrandom.js"></script>
+  <script src="js/MatGen.js"></script>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/notify.js"></script>
+  <script src="uiEngine.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Example Site</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Discord</a></li>
+        <li><a id="contractLink" href="#">Contract</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container text-center">
+    <div class="col-lg-6">
+      <div class="controlbox">
+          <h3><b>Header text:</b></h3>
+          <input type="number" step="0.001" placeholder="Eth Amount" id="amountInput"/>
+          &nbsp;
+          <select id="currencySelect">
+              <option value="eth">Eth</option>
+              <option value="other">Other</option>
+          </select>
+          <br>
+          <button id="transactionButton" class="custombuttonbig custombuttoncolor">Send</button>
+          <br>
+      </div>
+      <div class="controlbox">
+          <h3>Example Display: <span class="highlighttextsubtle" id="amountSpan">100000000</span></h3>
+          <div id="latestBet"></div>
+          <button id="finalizeButton" class="custombutton custombuttoncolor">finalize</button>
+          <!--<button id="cancelButton" class="custombutton custombuttoncolor">cancel</button>-->
+          <br>
+      </div>
+    </div>
+    <div class="col-lg-6 infotext">
+      <h3>Placeholder site!</h3>
+      Lorem ipsum dolor sit amet, <span class="highlighttext">consectetur</span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    </div>
+  </div>
+
+
+
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+  <script>
+    uiEngine.transformSite()
+  </script>
+</body>
