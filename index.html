@@ -13,11 +13,13 @@
     <script src="js/paper.js"></script>
   <script src="js/seedrandom.js"></script>
   <script src="js/MatGen.js"></script>
+  <script src="js/trianglify.min.js"></script>
+  <script src="js/geopattern.min.js"></script>
+  <script src="js/colorful-background-css-generator.js"></script>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/notify.js"></script>
   <script src="uiEngine.js"></script>
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 </head>
 <body>
   <nav class="navbar">
@@ -48,7 +50,20 @@
       <div class="controlbox">
           <h3>Example Display: <span class="highlighttextsubtle" id="amountSpan">100000000</span></h3>
           <div id="latestBet"></div>
-          <button id="finalizeButton" class="custombutton custombuttoncolor">finalize</button>
+          <button id="finalizeButton" class="custombutton custombuttoncolor">do thing</button>
+          <!--<button id="cancelButton" class="custombutton custombuttoncolor">cancel</button>-->
+          <br>
+      </div>
+      <div class="col-lg-4 controlbox">
+        <div class="infotext">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </div>
+      </div>
+      <div class="controlbox">
+          <h3>Value: <span class="highlighttextsubtle" id="amountSpan">1.6</span> Eth</h3>
+          <div id="latestBet"></div>
+          <h2>Other info: <span class="highlighttextsubtle" id="amountSpan">5</span></h2>
+          <div id="latestBet"></div>
           <!--<button id="cancelButton" class="custombutton custombuttoncolor">cancel</button>-->
           <br>
       </div>
@@ -60,10 +75,6 @@
 
     </div>
   </div>
-
-
-
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
   <script>
     uiEngine.transformSite()
   </script>
